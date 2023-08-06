@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beta 0.02 {% block title %}{% endblock %}</title>
+<!--    <link type="Image/x-icon" href="{% static 'main/img/ico.jpg' %}" rel="icon">-->
+    <link rel="stylesheet" href="{% static 'main/css/basic.css' %}">
+    {% block load_title %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+    {% block load_body %}{% endblock %}
+</body>
+</html>
