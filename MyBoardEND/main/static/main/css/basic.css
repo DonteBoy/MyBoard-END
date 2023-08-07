@@ -21,10 +21,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 .font_1 {
-    font-family: 'Russo One', sans-serif;
+    font-family: Russo One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
 }
 .font_2 {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Rubik Mono One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
 }
 /*Шрифты*/
 
@@ -48,7 +56,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #000000;
 }
 /*Цвета*/
-
 html, body {
-    background-color: #00011C;
+    color: #FFFFFF;
+    /*background-color: #00011C;*/
+    background-color: #454548;
+    font-family: 'Rubik Mono One', sans-serif;
 }

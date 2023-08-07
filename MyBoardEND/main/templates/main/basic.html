@@ -4,12 +4,19 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Beta 0.01 {% block title %}{% endblock %}</title>
-<!--    <link type="Image/x-icon" href="{% static 'main/img/ico.jpg' %}" rel="icon">-->
+    <title>{% block title %}{% endblock %} Beta 0.01</title>
+    <link type="Image/x-icon" href="{% static 'main/img/icons/icon.png' %}" rel="icon">
     <link rel="stylesheet" href="{% static 'main/css/basic.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/preloader.css' %}">
     {% block load_title %}{% endblock %}
 </head>
 <body>
+    <script src="{% static 'main/js/preloader.js' %}"></script>
+    <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    </div>
     {% block body %}{% endblock %}
     {% block load_body %}{% endblock %}
 </body>
