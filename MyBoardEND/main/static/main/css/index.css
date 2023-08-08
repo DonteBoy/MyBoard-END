@@ -1,3 +1,10 @@
+.animated_background {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
 .browsing_bottom {
     position: fixed;
     top: 0;
@@ -20,6 +27,12 @@
     width: 1%;
     height: 100%;
 }
+.wrapper {
+    padding-top: 50px;
+    margin-bottom: 149px;
+    margin-left: 245px;
+    margin-right: 245px;
+}
 .header {
     position: relative;
     display: flex;
@@ -31,7 +44,7 @@
     background: rgba(0, 1, 28, 0.50); 
     margin: 0 auto;
 }
-.header_top_1, .header_top_2, .header_top_3, .header_bottom_1, .header_bottom_2, .header_bottom_3 {
+.absolute {
     position: absolute;
 }
 .header_top_1 {
@@ -58,7 +71,6 @@
     border-top: 5px solid #43F8FF;
     border-right: 5px solid #43F8FF; 
 }
-
 .header_text{
     text-align: center;
 }
@@ -86,52 +98,80 @@
     border-right: 5px solid #43F8FF;
     border-bottom: 5px solid #43F8FF; 
 }
-.section {
+.main {
     position: relative;
+    margin-top: 57px;
+}
+.section {
     border-radius: 5px;
     background: rgba(0, 1, 28, 0.50); 
 }
 .section_1 {
-    position: relative;
     justify-content: center;
-    right: 500px;
+    float: left;
     width: 405px;
-    height: 470px; 
-    margin: 0 auto;
-    
+    height: 514px;
 }
 .section_text_1 {
     text-align: center;
-    width: 381px;
+    width: 100%;
     height: 41px;
     flex-direction: column;
     justify-content: center; 
 } 
 .section_2 {
-    position: relative;
     justify-content: center;
+    float: left;
     width: 470px;
     height: 514px; 
-    margin: 0 auto;
+    margin-left: 75px;
 }
 .section_text_2 {
     text-align: center;
-    width: 446px;
+    width: 100%;
     height: 41px; 
     flex-direction: column;
     justify-content: center;
 } 
 .section_3 {
-    position: relative;
     justify-content: center;
+    float: left;
     width: 405px;
     height: 514px; 
-    margin: 0 auto;
+    margin-left: 75px;
 }
 .section_text_3 {
     text-align: center;
-    width: 381px;
+    width: 100%;
     height: 41px; 
     flex-direction: column;
     justify-content: center; 
+}
+.footer {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+}
+.footer_group_1 {
+    width: 405px;
+    float: left; 
+}
+.footer_group_2 {
+    width: 470px;
+    margin-left: 75px;
+    float: left; 
+}
+.footer_group_3 {
+    width: 405px;
+    margin-left: 75px;
+    float: left; 
+}
+.footer_image {
+    float: left; 
+}
+.footer_image_2 {
+    
+}
+.footer_image_3 {
+    float: right;
 }
