@@ -114,13 +114,15 @@
 }
 .section {
     border-radius: 5px;
-    background: rgba(0, 1, 28, 0.50); 
+    /* background: rgba(110, 111, 121, 0.5);  */
 }
 .section_1 {
     justify-content: center;
     float: left;
     width: 405px;
     height: 514px;
+    border-radius: 5px;
+    
 }
 .div_section_1 {
     width: 405px;
@@ -129,6 +131,8 @@
     border-top: 5px solid #43F8FF;
     border-right: 5px solid #43F8FF;
     border-left: 5px solid #43F8FF; 
+    background: rgba(0, 1, 28, 0.50); 
+    
 }
 .section_text_1 {
     text-align: center;
@@ -143,7 +147,7 @@
     height: 100%; 
     border-radius: 0px 0px 5px 5px; 
     border: 5px solid #43F8FF;
-    background: rgba(0, 1, 28, 0.20); 
+    background: rgba(0, 1, 28, 0.50); 
 }
 .usd {
     position: absolute;
@@ -209,6 +213,7 @@
     flex-direction: column;
     justify-content: center;
 } 
+.article_2 {}
 .section_3 {
     justify-content: center;
     float: right;
