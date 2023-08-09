@@ -21,7 +21,7 @@
             <div class="absolute header_top_1"></div>
             <div class="absolute header_top_2"></div>
             <div class="absolute header_top_3"></div>
-            <h1 class="header_text color_1 font_1">MyBoard-END</h1>
+            <div><h1 class="header_text color_1 font_1" id="header_text_anim">MyBoard-END</h1></div>
             <div class="absolute header_bottom_1"></div>
             <div class="absolute header_bottom_2"></div>
             <div class="absolute header_bottom_3"></div>
@@ -33,7 +33,15 @@
                 <h2 class="section_text_1 color_1 font_1">Переменные</h2>
             </div>
             <article class="article_1">
-
+                <div class="usd">
+                    <p class="color_1 font_1">USD</p>
+                </div>
+                <div class="weather">
+                    <p class="color_1 font_1">+31</p>
+                </div>
+                <div class="article_1_main">
+                    <p>23:23</p>
+                </div>
             </article>
         </section>
         <section class="section section_2">
@@ -130,5 +138,7 @@
     </footer>
     -->
 </div>
+<script src="{% static 'main/js/swapdogs.min.js' %}"></script>
+<script src="{% static 'main/js/SWAPDOGS.js' %}"></script>
 <script src="{% static 'main/js/VANTA.js' %}"></script>
 {% endblock %}
