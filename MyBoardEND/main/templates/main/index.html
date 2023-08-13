@@ -10,13 +10,11 @@
 
 {% block body %}
 <div class="animated_background"></div>
-<!--
 <div class="browsing">
-    <div class="browsing_bottom" onmouseover="alert('над красным!')"></div>
-    <div class="browsing_left" onmouseover="alert('над красным!')"></div>
-    <div class="browsing_right" onmouseover="alert('над красным!')"></div>
+    <div class="browsing_bottom" onmouseover=""></div>
+    <div class="browsing_left" onmouseover=""></div>
+    <div class="browsing_right" onmouseover=""></div>
 </div>
--->
 <div class="wrapper">
     <header>
         <div class="header">
@@ -70,7 +68,6 @@
                 </div>
             </article>
         </section>
-
         <section class="section section_3">
             <div class="div_section_3"> 
                 <h2 class="section_text_3 color_1 font_1">Чат</h2>
@@ -79,11 +76,25 @@
             </article>
         </section>
     </main>
-    {% comment %} <footer class="footer">
-        <div class="">
-            <p>g</p>
+    <footer class="footer">
+        <div class="absolute footer_div">
+            <div class="footer_1">
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/javascript-logo-svgrepo-com 1.svg' %}"  alt="javascript_logo"></div>
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/css-3-svgrepo-com 1.svg' %}"  alt="css_logo"></div>
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/html-5-svgrepo-com 1.svg' %}"  alt="html_logo"></div>
+            </div>
+            <div class="footer_2">
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/django-icon-svgrepo-com 1.svg' %}"  alt="django_logo"></div>
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/python-svgrepo-com 1.svg' %}"  alt="python_logo"></div>
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/api-interface-svgrepo-com 1.svg' %}"  alt="api_logo"></div>
+            </div>
+            <div class="footer_3">
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/flet-logo-no-text 1.svg' %}"  alt="flet_logo"></div>
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/github-color-svgrepo-com 1.svg' %}"  alt="github_logo"></div>
+                <div class="footer_block float_left"><img class="footer_img" src="{% static 'main/img/pictures_svg/hf-logo 1.svg' %}"  alt="hf_logo"></div>
+            </div>
         </div>
-    </footer>  {% endcomment %}
+    </footer>
 </div>
 <script src="{% static 'main/js/swapdogs.min.js' %}"></script>
 <script src="{% static 'main/js/SWAPDOGS.js' %}"></script>
